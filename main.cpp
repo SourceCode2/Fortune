@@ -68,7 +68,7 @@ void estrazione_da_lista (string lista)
 
 void estrazione ()
 {
-    srand(0);
+    srand(time(NULL));
     CLASSE Classe1D[31];
 Classe1D[0].nome = "Antonini Emma";
 Classe1D[0].chiamato = false;
