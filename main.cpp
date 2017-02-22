@@ -67,7 +67,7 @@ int esegui (string comando) {
 
 void estrazione_da_lista (string lista) // Lista è la directory del file
 {
-    ifstream file(lista); // Apertura dello stream del file
+    ifstream file(lista.c_str); // Apertura dello stream del file
 
     if (file) { // Se lo stream è vero ed funziona
         file >> alunni; // estrazione con ">>" da file dentro la variabile int alunni
